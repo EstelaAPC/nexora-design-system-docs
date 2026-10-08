@@ -1,8 +1,33 @@
 # Nexora Design System Docs
 
-Official documentation site for the Nexora Design System, built as a static Vite application and powered by the published npm packages.
+> 🚀 **Acesse a documentação online:**  
+> **[Nexora Design System Docs](https://estelaapc.github.io/nexora-design-system-docs/)**
 
-## Tech Stack
+Official documentation site for the **Nexora Design System**, built as a static Vite application and powered by the published npm packages.
+
+The documentation is publicly hosted through **GitHub Pages** and consumes the Nexora packages published on **npm**.
+
+---
+
+## 🌐 Documentation
+
+### [Acesse o Nexora Design System Docs →](https://estelaapc.github.io/nexora-design-system-docs/)
+
+Explore:
+
+- Components
+- Design Tokens
+- Themes
+- Icons
+- Accessibility
+- Architecture
+- Installation
+- Usage examples
+- NPM packages
+
+---
+
+## 🛠️ Tech Stack
 
 - Vite
 - TypeScript
@@ -10,45 +35,41 @@ Official documentation site for the Nexora Design System, built as a static Vite
 - CSS
 - Web Components
 - GitHub Pages
+- npm
 
-## Features
+---
+
+## ✨ Features
 
 - Documentation home page and overview content
 - Navigation sidebar with sections and component pages
-- Light and dark mode support for the documentation shell
+- Interactive component examples
+- Light and dark mode support
 - Published Nexora package usage examples
-- Responsive layout tuned for desktop, tablet and mobile screens
+- Responsive layout for desktop, tablet and mobile
+- Design System documentation
 - GitHub Pages deployment pipeline
+- NPM package integration
 
-## Packages
+---
 
-- @nexora-ds/components
-- @nexora-ds/design-tokens
-- @nexora-ds/icons
-- @nexora-ds/theme
+## 📦 Nexora Packages
 
-## Local Development
+The documentation consumes the publicly published Nexora packages:
+
+- `@nexora-ds/components`
+- `@nexora-ds/design-tokens`
+- `@nexora-ds/icons`
+- `@nexora-ds/theme`
+
+All packages are available through the `@nexora-ds` npm organization.
+
+---
+
+## 🚀 Local Development
+
+Clone the repository:
 
 ```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Deploy
-
-This project is configured for GitHub Pages using the repository path `/nexora-design-system-docs/`.
-
-## Repository
-
-- GitHub: https://github.com/EstelaAPC/nexora-design-system-docs
-- NPM: https://www.npmjs.com/org/nexora-ds
-
-## License
-
-MIT
+git clone https://github.com/EstelaAPC/nexora-design-system-docs.git
+cd nexora-design-system-docs
